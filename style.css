@@ -1,0 +1,121 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:regular,500,700&display=swap);
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h3 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  background-color: #f9f9f9;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  color: #151515;
+  padding-bottom: 50px;
+}
+
+.container {
+  max-width: 1270px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.header {
+  padding-top: 20px;
+}
+
+.header__row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 15px;
+}
+
+.header__title {
+  font-weight: 700;
+  font-size: 28px;
+}
+
+.header__logo {
+  position: relative;
+  bottom: 0;
+  transition: bottom 0.2s ease-in;
+}
+
+.header__logo:hover {
+  bottom: 3px;
+}
+
+.tasks {
+  margin-top: 50px;
+}
+
+.tasks {
+  margin-top: 50px;
+}
+
+.tasks__cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  column-gap: 30px;
+}
+
+.card {
+  width: 300px;
+  height: 400px;
+  background-color: #c0c0c07a;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+}
+
+.card__title {
+  font-size: 23px;
+  font-weight: 500;
+}
+
+/* MEDIA */
+@media (max-width: 1000px) {
+  .tasks__cards {
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    row-gap: 20px;
+  }
+
+  .container--tablet {
+    max-width: 670px;
+  }
+}
+
+@media (max-width: 680px) {
+  .container--mobile {
+    max-width: 340px;
+  }
+}
+
+@media (max-width: 600px) {
+  .header__row {
+    flex-direction: column;
+    row-gap: 15px;
+  }
+}

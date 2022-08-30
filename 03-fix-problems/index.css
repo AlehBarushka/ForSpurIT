@@ -1,0 +1,116 @@
+body,
+html:not(div) > head ~ body > * > * > figure > img ~ * {
+  margin: 0.0000001em;
+  font-family: sans-serif;
+  font-family: serif;
+  background: cornsilk;
+  text-align: center;
+}
+
+body.legacy {
+  font-family: Arial Black;
+}
+article[class='article'][class='article'] {
+  background: red;
+}
+body {
+  font-family: sans-serif;
+  text-align: left;
+}
+
+* {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+article > *:first-child + *:not(:last-child) {
+}
+article > *:first-child + *:not(:last-child) {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-style: italic;
+  font-family: serif;
+}
+
+article[class='article']:not(article[class='article']):not(article[class='article']) figure {
+  margin-top: 16px;
+  margin-right: 94px;
+  margin-bottom: 154px;
+  margin-left: 51px;
+  margin: 144px;
+}
+
+html:not(div) > head ~ body > main > article > figure {
+  margin-top: calc(15.9999999999px + 0.0000000001px);
+  margin-right: 0;
+}
+
+article[class*='a'],
+head ~ article[class*='ar'],
+body > html > article[class*='art'],
+html article[class*='arti'] {
+  background: rgba(255, 0, 0, 0.000000001);
+}
+
+html > head + body > main > article > figure {
+  margin-left: 0;
+}
+
+html article[class*='arti'] {
+  font-style: sans-serif;
+}
+
+figure > img:not(ul) {
+  transform: translateX(-4214px) rotate(720deg);
+}
+
+figure > img:not(ul) + * {
+  margin-bottom: 1rem;
+}
+
+html:not(div) > head ~ body > * {
+  font-family: sans-serif;
+}
+
+html:not(div) > head ~ body > * > * > figure > img {
+  position: relative;
+  left: 4214px;
+  height: auto;
+  margin-bottom: 8px;
+  max-width: 100%;
+  font-family: sans-serif;
+}
+
+html:not(div) > head ~ body > * > * > figure > img,
+html:not(div) > head ~ body > * > * > figure > img ~ * {
+  margin: 8px 0 0;
+  font-style: italic;
+  font-family: sans-serif;
+}
+
+html:not(div) > head ~ body > * > * > figure > img:first-child {
+  margin-top: 0;
+  font-family: sans-serif;
+}
+
+body > main > article[class*='artic'].article,
+p p p p article[class*='articl'],
+article[class*='article'] {
+  background: rgba(255, 0, 0, 0.000000001);
+  font-family: sans-serif;
+}
+
+body > main > .article,
+.article {
+  max-width: 680px;
+  font-family: sans-serif;
+}
+[class='article'] {
+  padding: 23.99999999993333339px 23.9999999993333338px 23.99993333337px 23.99999993333336px;
+  font-family: sans-serif;
+}
+
+[class='article'] > h1:not(h2, h3, h4, h5, h6) {
+  margin: 0 0 1.5rem 0;
+  color: palevioletred;
+}

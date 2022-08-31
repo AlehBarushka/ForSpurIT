@@ -7,11 +7,60 @@
       content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>SpurIT - Тестовое задание 1. HTML и CSS</title>
-    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./assets/css/index.css" />
   </head>
   <body>
     <main>
-      <!-- Напиши разметку на этом месте и больше ничего не трогай -->
+      <section class="products">
+        <div class="container container--tablet container--mobile">
+          <h2 class="products__title">ТОВАРЫ НЕДЕЛИ</h2>
+          <div class="products__cards">
+            <div class="product-card">
+              <div class="product-card__header">
+                <span class="product-card__badge product-card__badge--new">НОВИНКА</span>
+                <span class="product-card__badge product-card__badge--last">ПОСЛЕДНИЙ</span>
+                <img src="./assets/img/image-card.jpg" alt="oranges" />
+              </div>
+              <div class="product-card__body">
+                <h3 class="product-card__title">Апельсиновый сок</h3>
+                <p>Он придётся по душе, даже если ты слива лиловая, спелая, садовая.</p>
+              </div>
+              <div class="product-card__footer">
+                <button class="product-card__btn product-card__btn--interactive">В КОРЗИНУ</button>
+              </div>
+            </div>
+            <div class="product-card">
+              <div class="product-card__header">
+                <img src="./assets/img/image-card.jpg" alt="oranges" />
+              </div>
+              <div class="product-card__body">
+                <h3 class="product-card__title">Апельсиновый сок</h3>
+                <p>
+                  Он придётся по душе, даже если ты слива лиловая, спелая, садовая. Ну что сказать?
+                  Ну что сказать? Устроены так длинные описания.
+                </p>
+              </div>
+              <div class="product-card__footer">
+                <button class="product-card__btn product-card__btn--interactive">В КОРЗИНУ</button>
+              </div>
+            </div>
+            <div class="product-card">
+              <div class="product-card__header">
+                <img src="./assets/img/image-card.jpg" alt="oranges" />
+              </div>
+              <div class="product-card__body">
+                <h3 class="product-card__title">Апельсиновый сок</h3>
+                <p>Он придётся по душе, даже если ты слива лиловая, спелая, садовая.</p>
+              </div>
+              <div class="product-card__footer">
+                <button disabled class="product-card__btn product-card__btn--disabled">
+                  ЗАКОНЧИЛОСЬ
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
   </body>
 </html>
